@@ -47,6 +47,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="UiW-mp-WPS">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="q1Q-9M-usE">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="aHd-c4-RCE" kind="presentation" id="em7-Tk-l7d"/>
                             </connections>
@@ -76,12 +77,18 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem title="Cancel" id="RO3-ac-IqN">
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <connections>
                                             <action selector="cancelButtonPressed" destination="aHd-c4-RCE" id="q2n-Fi-D7N"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fei-bs-Gfj"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="EfI-c7-Bta"/>
+                                    <barButtonItem title="Add Entry Screen" id="fei-bs-Gfj">
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TWw-Fb-Zwd"/>
                                     <barButtonItem title="Save" id="J5H-tw-JSJ">
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <connections>
                                             <action selector="saveButtonPressed" destination="aHd-c4-RCE" id="VbE-1T-MGd"/>
                                         </connections>

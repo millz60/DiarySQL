@@ -19,6 +19,8 @@ class DiaryListTableViewController: UITableViewController, NSFetchedResultsContr
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationItem.title = "Saved Entries"
+        
         let fetchRequest = NSFetchRequest(entityName: "DiaryEntry")
         fetchRequest.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
         
