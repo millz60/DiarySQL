@@ -29,7 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         toolbarAppearance.tintColor = UIColor.blueColor()
         toolbarAppearance.barTintColor = UIColor.blueColor()
         
-
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        
         setupCoreData()
         
         guard let navigationController = self.window?.rootViewController as? UINavigationController else {

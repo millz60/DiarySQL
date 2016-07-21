@@ -29,8 +29,11 @@ class DiaryListTableViewController: UITableViewController, NSFetchedResultsContr
         self.fetchedResultsController.delegate = self
         
         try! self.fetchedResultsController.performFetch()
+        
+
 
     }
+    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
@@ -71,7 +74,7 @@ class DiaryListTableViewController: UITableViewController, NSFetchedResultsContr
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
